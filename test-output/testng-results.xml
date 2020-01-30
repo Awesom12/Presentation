@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[I'm in HomePageTest]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='src\test\resources\screenshots\clearShoppingCart.png' height='400' width='400'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-01-29T16:39:36 MST" name="Suite" finished-at="2020-01-29T16:40:27 MST" duration-ms="51495">
+    <groups>
+    </groups>
+    <test started-at="2020-01-29T16:39:36 MST" name="Test" finished-at="2020-01-29T16:40:27 MST" duration-ms="51495">
+      <class name="testScripts.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.HomePageTest@229d10bd]" started-at="2020-01-29T16:39:36 MST" name="setUp" finished-at="2020-01-29T16:39:46 MST" duration-ms="10425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchProductType()[pri:0, instance:testScripts.HomePageTest@229d10bd]" started-at="2020-01-29T16:39:46 MST" name="testSearchProductType" finished-at="2020-01-29T16:39:48 MST" duration-ms="2326" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I'm in HomePageTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchProductType -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:testScripts.HomePageTest@229d10bd]" started-at="2020-01-29T16:39:48 MST" name="recordFailure" finished-at="2020-01-29T16:39:48 MST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchProductType status=SUCCESS method=HomePageTest.testSearchProductType()[pri:0, instance:testScripts.HomePageTest@229d10bd] output=I'm in HomePageTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- testScripts.HomePageTest -->
+      <class name="testScripts.SearchProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.SearchProductTest@47542153]" started-at="2020-01-29T16:39:48 MST" name="setUp" finished-at="2020-01-29T16:39:58 MST" duration-ms="9493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="specificProductSearchTest()[pri:0, instance:testScripts.SearchProductTest@47542153]" started-at="2020-01-29T16:39:58 MST" name="specificProductSearchTest" finished-at="2020-01-29T16:40:01 MST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specificProductSearchTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:testScripts.SearchProductTest@47542153]" started-at="2020-01-29T16:40:01 MST" name="recordFailure" finished-at="2020-01-29T16:40:01 MST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=specificProductSearchTest status=SUCCESS method=SearchProductTest.specificProductSearchTest()[pri:0, instance:testScripts.SearchProductTest@47542153] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- testScripts.SearchProductTest -->
+      <class name="testScripts.AddProductToTheCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.AddProductToTheCartTest@33afa13b]" started-at="2020-01-29T16:40:01 MST" name="setUp" finished-at="2020-01-29T16:40:10 MST" duration-ms="9425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCartFunctionality()[pri:1, instance:testScripts.AddProductToTheCartTest@33afa13b]" started-at="2020-01-29T16:40:10 MST" name="testAddToCartFunctionality" finished-at="2020-01-29T16:40:15 MST" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartFunctionality -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:testScripts.AddProductToTheCartTest@33afa13b]" started-at="2020-01-29T16:40:15 MST" name="recordFailure" finished-at="2020-01-29T16:40:15 MST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddToCartFunctionality status=SUCCESS method=AddProductToTheCartTest.testAddToCartFunctionality()[pri:1, instance:testScripts.AddProductToTheCartTest@33afa13b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- testScripts.AddProductToTheCartTest -->
+      <class name="testScripts.ClearShoppingCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.ClearShoppingCartTest@7a4ccb53]" started-at="2020-01-29T16:40:15 MST" name="setUp" finished-at="2020-01-29T16:40:24 MST" duration-ms="9508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="addProduct()[pri:0, instance:testScripts.ClearShoppingCartTest@7a4ccb53]" started-at="2020-01-29T16:40:24 MST" name="addProduct" finished-at="2020-01-29T16:40:25 MST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method signature="clearShoppingCart()[pri:0, instance:testScripts.ClearShoppingCartTest@7a4ccb53]" started-at="2020-01-29T16:40:25 MST" name="clearShoppingCart" finished-at="2020-01-29T16:40:27 MST" duration-ms="1276" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cart item is not present in the cart did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cart item is not present in the cart did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at testScripts.ClearShoppingCartTest.clearShoppingCart(ClearShoppingCartTest.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearShoppingCart -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:testScripts.ClearShoppingCartTest@7a4ccb53]" started-at="2020-01-29T16:40:27 MST" name="recordFailure" finished-at="2020-01-29T16:40:27 MST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clearShoppingCart status=FAILURE method=ClearShoppingCartTest.clearShoppingCart()[pri:0, instance:testScripts.ClearShoppingCartTest@7a4ccb53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='src\test\resources\screenshots\clearShoppingCart.png' height='400' width='400'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- testScripts.ClearShoppingCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
