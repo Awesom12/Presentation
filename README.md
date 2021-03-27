@@ -18,7 +18,7 @@
 The test scripts of the project follow Single Responsibility Principle where each script is responsible for only one task. This enable to 
 figure out bugs easier and faster if any.
 
-Assertions are added to each test script to check if it executs as expected.
+Assertions are added to each test script to check if it executes as expected.
 
 Comments are added to the test script to understand the workflow even for a new engineer in the team.
 
