@@ -30,4 +30,4 @@ The test scripts uses the shortcuts to navigate to the url directly(not from the
 
 Screenshots are added to the test cases failed to figure the location of the failure exactly.
 
-TestNG report will be generation after the execution of the test cases.
+TestNG report will be generated after the execution of the test cases.
